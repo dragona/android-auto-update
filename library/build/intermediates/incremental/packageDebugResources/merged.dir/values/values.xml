@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_update_dialog_btn_cancel">Update later</string>
+    <string name="android_auto_update_dialog_btn_download">Download the latest version</string>
+    <string name="android_auto_update_dialog_checking">Checking for a new update.</string>
+    <string name="android_auto_update_dialog_title">New version available</string>
+    <string name="android_auto_update_download_progress"> Downloading: %1$d%%</string>
+    <string name="android_auto_update_notification_message">New update available</string>
+    <string name="android_auto_update_notify_content">Update to the newest version</string>
+    <string name="android_auto_update_notify_ticker">New version is available, update now! </string>
+    <string name="android_auto_update_toast_no_new_update">You are using the latest version</string>
+</resources>

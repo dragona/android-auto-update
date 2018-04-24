@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.loveplusplus.update">
+    package="mg.studio.autoupdater.lib">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,11 +8,11 @@
 
     <application>
         <service
-            android:name=".DownloadService"
+            android:name="mg.studio.autoupdater.lib.DownloadService"
             android:exported="false" />
 
         <provider
-            android:name=".UpdateApkFileProvider"
+            android:name="mg.studio.autoupdater.lib.UpdateApkFileProvider"
             android:authorities="${applicationId}.update.provider"
             android:exported="false"
             android:grantUriPermissions="true">
